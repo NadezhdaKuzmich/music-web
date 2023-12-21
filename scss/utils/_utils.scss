@@ -1,0 +1,22 @@
+.container {
+  max-width: 1260px;
+  padding: 0 24px;
+  margin: auto;
+
+  @media screen and (min-width: 768px) {
+    padding: 0 30px;
+  }
+
+  @media screen and (min-width: 992px) {
+    padding: 0 40px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    padding: 0 120px;
+  }
+}
+
+.main {
+  background: white;
+  padding: 60px 0;
+}

@@ -1,0 +1,21 @@
+.how-to-buy {
+  &__container {
+    display: flex;
+  }
+
+  &__title {
+    flex-basis: 50%;
+  }
+
+  &__content {
+    flex-basis: 50%;
+  }
+
+  &__benefits {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    margin: 0 0 40px;
+    gap: 16px;
+  }
+}

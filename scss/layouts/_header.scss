@@ -1,0 +1,29 @@
+.header {
+  background-image: url(../images/header-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  &__container {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+
+  &__title {
+    font-size: 48px;
+    font-style: italic;
+    font-weight: 800;
+    line-height: 1;
+    letter-spacing: -1.5px;
+    margin: 40px 0 0;
+  }
+
+  &__top {
+    display: flex;
+    justify-content: space-between;
+  }
+}

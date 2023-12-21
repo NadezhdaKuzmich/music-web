@@ -1,0 +1,11 @@
+.recommended {
+  &__title {
+    text-align: center;
+  }
+
+  &__products {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+  }
+}
