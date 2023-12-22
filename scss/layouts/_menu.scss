@@ -3,7 +3,7 @@
   top: 0;
   right: 0;
   left: 0;
-  background: #e8eff9;
+  background: var(--color-secondary-light);
   padding: 64px 0;
   transform: translateX(-100%);
   transition: transform 0.5s;
@@ -35,7 +35,7 @@
     font-size: 22px;
     font-weight: bold;
     line-height: 1;
-    color: #292929;
+    color: var(--color-primary-dark);
     letter-spacing: 2px;
     text-transform: uppercase;
   }
@@ -48,7 +48,7 @@
     display: block;
     width: 0;
     height: 2px;
-    background-color: #292929;
+    background-color: var(--color-primary-dark);
     transition: width 0.3s ease-out;
   }
   
