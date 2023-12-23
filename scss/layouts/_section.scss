@@ -1,11 +1,23 @@
 .section {
-  padding: 60px 0;
+  padding: 40px 0;
+
+  @media screen and (min-width: 768px) {
+    padding: 60px 0;
+  }
 
   &__title {
-    font-size: 48px;
+    font-size: 34px;
     font-weight: 700;
     line-height: 1;
     letter-spacing: -1.5px;
     margin: 0 0 64px;
+
+    @media screen and (min-width: 768px) {
+      font-size: 40px;
+    }
+
+    @media screen and (min-width: 992px) {
+      font-size: 48px;
+    }
   }
 }

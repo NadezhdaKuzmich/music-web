@@ -1,5 +1,11 @@
 .product {
-  flex-basis: 324px;
+  max-width: 324px;
+  margin: auto;
+
+  @media screen and (min-width: 768px) {
+    max-width: 100%;
+    flex-basis: 324px;
+  }
 
   &__photo {
     width: 100%;

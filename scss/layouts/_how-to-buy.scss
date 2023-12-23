@@ -1,10 +1,21 @@
 .how-to-buy {
   &__container {
     display: flex;
+    flex-direction: column;
+
+    @media screen and (min-width: 768px) {
+      flex-direction: row;
+      gap: 24px;
+    }
   }
 
   &__title {
-    flex-basis: 50%;
+    text-align: center;
+
+    @media screen and (min-width: 768px) {
+      text-align: left;
+      flex-basis: 50%;
+    }
   }
 
   &__content {
