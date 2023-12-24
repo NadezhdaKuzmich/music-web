@@ -45,4 +45,14 @@
     display: flex;
     justify-content: space-between;
   }
+
+  &__btn-icon {
+    width: 24px;
+    height: 24px;
+    background-image: url(../images/icons/icon-burger-menu.svg);
+
+    &:hover {
+      background-image: url(../images/icons/icon-burger-menu-hover.svg);
+    }
+  }
 }
