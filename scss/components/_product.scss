@@ -2,7 +2,7 @@
   max-width: 324px;
   margin: auto;
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: $bp-tablet) {
     max-width: 100%;
     flex-basis: 324px;
   }

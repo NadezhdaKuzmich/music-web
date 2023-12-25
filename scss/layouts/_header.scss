@@ -4,22 +4,26 @@
   background-position: center;
   background-size: cover;
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: $bp-tablet) {
     background-image: url(../images/header-bg.png);
   }
 
   &__container {
     display: flex;
-    height: 712px;
+    height: 700px;
     flex-direction: column;
     justify-content: space-between;
     padding-top: 34px;
     padding-bottom: 44px;
 
-    @media screen and (min-width: 992px) {
+    @media screen and (min-width: $bp-middle) {
       height: 100vh;
       padding-top: 64px;
       padding-bottom: 64px;
+    }
+
+    @media screen and (min-width: $bp-large) {
+      height: 1098px;
     }
   }
 
@@ -31,12 +35,12 @@
     letter-spacing: -1.5px;
     margin: 10px 0 0;
 
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: $bp-tablet) {
       font-size: 40px;
       margin: 40px 0 0;
     }
 
-    @media screen and (min-width: 992px) {
+    @media screen and (min-width: $bp-middle) {
       font-size: 48px;
     }
   }
